@@ -12,6 +12,8 @@ export default function sketch(p){
 
       p.strokeWeight(4);
       p.ellipse(0, 0, 300, 300);
+      p.stroke(255, 100, 150);
+      p.arc(0, 0, 300, 300, 0, 0);
 
       //p.rect(175, 0, 75, 150);
 
