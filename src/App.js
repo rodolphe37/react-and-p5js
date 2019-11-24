@@ -7,8 +7,10 @@ import './App.css';
 function App(){
     return (
       <div>
-          {/*<SketchPageDemo />*/}
-        <P5Wrapper sketch={sketch2} ></P5Wrapper>
+        {/*<SketchPageDemo />*/}
+        <div className="rotate-canvas">
+          <P5Wrapper sketch={sketch2} ></P5Wrapper>
+        </div>
       </div>
     );
 }
