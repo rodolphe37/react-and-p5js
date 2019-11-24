@@ -1,4 +1,3 @@
-import p5 from 'p5';
 
 function sketch4(p5){
     let n = 0;
